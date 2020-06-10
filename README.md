@@ -6,7 +6,7 @@ Para rodar o projeto corretamente, após a instalação das dependências via co
 ```
 php artisan migrate --seed
 ```
-O projeto precisará de algumas variáveis na sua **.env* para funcionar corretamente.
+O projeto precisará de algumas variáveis na sua **.env** para funcionar corretamente.
 
 Também será necessário obter o TOKEN do seu BOT que foi criado, via Telegram. [Tutorial criando BOT Telegram](https://core.telegram.org/bots#creating-a-new-bot)
 
