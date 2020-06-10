@@ -43,4 +43,5 @@ O Comando pode ser executado por um JOB, basta configurá-lo no projeto da manei
 
 O projeto é OPEN SOURCE, e está aberto a sugestões de melhorias, novas idéias, e por ai vai! Espero seu pull request 😊
 
+Sugestões ou contato - lucasassistomaz@gmail.com
 
