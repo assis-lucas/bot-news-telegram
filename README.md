@@ -1,6 +1,6 @@
 # Telegram BOT de Notícias em Laravel
 
-Projeto desenvolvido em Laravel 7.0 e PHP 7+, com intuito de automatizar minha leitura de notícias, através de palavras-chaves cadastradas no banco de dados, utilizando a API https://newsapi.org/ para buscar notícias de no máximo dois dias atrás, e enviando por um BOT no Telegram. Também, vale ressaltar que não envia notícias repetidas, e pega as notícias de no máximo dois dias atrás (Pode ser alterado).
+Projeto desenvolvido em Laravel 7.0 e PHP 7+, com intuito de automatizar minha leitura de notícias, através de palavras-chaves cadastradas no banco de dados, utilizando a API https://newsapi.org/ para buscar notícias, e enviando por um BOT no Telegram. Também vale ressaltar que não envia notícias repetidas, e pega as notícias de no máximo dois dias atrás (Pode ser alterado).
 
 Para rodar o projeto corretamente, após a instalação das dependências via composer, é necessário utilizar um banco de dados mysql, e rodar as migrations com seeds.
 ```
