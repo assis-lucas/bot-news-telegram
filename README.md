@@ -6,11 +6,18 @@ Para rodar o projeto corretamente, após a instalação das dependências via co
 ```
 php artisan migrate --seed
 ```
+
 O projeto precisará de algumas variáveis na sua **.env** para funcionar corretamente.
+```
+TELEGRAM_BOT_TOKEN=YOUR-BOT-TOKEN
+TELEGRAM_CHAT_ID=-YOUR-CHAT-ID
+TELEGRAM_BOT_USERNAME=YOUR-BOT-USERNAME
+NEWS_API_TOKEN=YOUR-NEWS-API-TOKEN
+```
 
 Também será necessário obter o TOKEN do seu BOT que foi criado, via Telegram. [Tutorial criando BOT Telegram](https://core.telegram.org/bots#creating-a-new-bot)
 
-Será necessário também obter o CHAT_ID, que é o ID do Chat onde BOT irá enviar as notícias, pode ser um grupo, ou usuário. 
+Será necessário também obter o CHAT_ID, que é o ID do Chat onde o BOT irá enviar as notícias, pode ser um grupo, ou usuário. 
 Pode ser pegado utilizando a própria API do Telegram, ou utilizando a API que eu criei dentro do Laravel. 
 
 ```
@@ -24,14 +31,8 @@ https://api.telegram.org/bot<YOUR-TOKEN>/getUpdates
 
 O Bot precisará de um nome também, basta colocar um nome desejado, ou o próprio nome do BOT no Telegram.
 
-```
-TELEGRAM_BOT_TOKEN=YOUR-BOT-TOKEN
-TELEGRAM_CHAT_ID=-YOUR-CHAT-ID
-TELEGRAM_BOT_USERNAME=YOUR-BOT-USERNAME
-NEWS_API_TOKEN=YOUR-NEWS-API-TOKEN
-```
-
 Por fim, será necessário um [TOKEN da NEWS API](https://newsapi.org/) para obtê-lo, basta se cadastrar, e será gerado um token que você poderá utilizar.
+
 
 Para utilizar, basta rodar o comando:
 ```
